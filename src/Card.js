@@ -1,6 +1,5 @@
 import profiles from "./fakeData";
 
-console.log(profiles);
 
 export default function Card({ image, name, designation, description }) {
   return (
