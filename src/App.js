@@ -2,11 +2,8 @@ import "./App.css";
 
 function App() {
   const myAge = 20;
-  return (
-    <div className="bg-white">
-      <h1>Hello {myAge}</h1>
 
-      const getRandomProfilePicture = async () => {
+  const getRandomProfilePicture = async () => {
     const res = await fetch("https://randomuser.me/api");
     const data = await res.json();
     console.log(data.results);
